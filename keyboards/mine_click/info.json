@@ -1,0 +1,47 @@
+{
+    "manufacturer": "Virginia2244",
+    "keyboard_name": "mine_click",
+    "maintainer": "Carter Pollan",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["GP27", "GP28", "GP29", "GP6", "GP7"],
+        "rows": ["GP4", "GP2", "GP1"]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_2x5_3": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0.25},
+                {"matrix": [0, 1], "x": 1, "y": 0.125},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0.125},
+                {"matrix": [0, 4], "x": 4, "y": 0.25},
+                
+                {"matrix": [1, 0], "x": 0, "y": 1.25},
+                {"matrix": [1, 1], "x": 1, "y": 1.125},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [1, 3], "x": 3, "y": 1.125},
+                {"matrix": [1, 4], "x": 4, "y": 1.25},
+
+                {"matrix": [2, 2], "x": 2.5, "y": 3.25},
+                {"matrix": [2, 3], "x": 3.5, "y": 3.5},
+                {"matrix": [2, 4], "x": 4.5, "y": 3.75}
+            ]
+        }
+    }
+}
