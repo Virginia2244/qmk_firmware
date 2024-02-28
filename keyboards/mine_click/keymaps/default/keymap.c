@@ -70,7 +70,7 @@ const rgblight_segment_t PROGMEM my_layer2_layer[] = RGBLIGHT_LAYER_SEGMENTS(
 
 // Layer 3
 const rgblight_segment_t PROGMEM my_layer3_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 1, 222, 255, 100}
+    {0, 1, 222, 255, 10}
 );
 
 // Now define the array of layers. Later layers take precedence
