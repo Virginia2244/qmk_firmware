@@ -76,3 +76,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                         _______,        _______,        _______,            _______,        _______,        _______)
 };
 
+
+// Defining combos
+const uint16_t PROGMEM layers_combo[] = {MO(_NUMBER), MO(_FUNCTION), COMBO_END};
+const uint16_t PROGMEM escape[] = {CTL_T(KC_A), KC_Q, COMBO_END};
+// Enabling combos
+combo_t key_combos[]   = {
+    COMBO(layers_combo, MO(_CTL)),
+    COMBO(escape, KC_ESC),
+};
