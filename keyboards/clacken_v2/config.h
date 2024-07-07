@@ -19,3 +19,5 @@
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
 
+/* LED definitions */
+#define WS2812_DI_PIN D3
