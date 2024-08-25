@@ -21,3 +21,5 @@
 
 /* LED definitions */
 #define WS2812_DI_PIN D3
+#define SPLIT_LAYER_STATE_ENABLE
+#define RGBLIGHT_LAYERS

@@ -75,21 +75,19 @@
     "rgblight": {
         "led_count": 14,
         "animations": {
-            "rainbow_mood": true
+            "rainbow_swirl": true
         },
         "default": {
-            "animation": "rainbow_mood",
-            "hue": 100,
-            "sat": 100,
-            "speed": 100
+            "animation": "rainbow_swirl",
+            "hue": 8,
+            "sat": 8,
+            "speed": 1
         },
         "driver": "ws2812",
         "layers": {
             "enabled": true
         },
-        "led_map": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ],
-        "max_brightness": 100,
-        "split": true,
+        "max_brightness": 255,
         "split_count": [7, 7]
     }
 }
