@@ -88,7 +88,7 @@ combo_t key_combos[]   = {
 
 // Caps layer
 const rgblight_segment_t PROGMEM my_capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 1, 0, 255, 65}       // Light 4 LEDs, starting with LED 6
+    {1, 1, 0, 255, 65}       // Light 4 LEDs, starting with LED 6
 );
 
 // Layer 1
