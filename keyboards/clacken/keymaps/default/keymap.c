@@ -66,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [_NUMBER]       = LAYOUT_clack(
         KC_1,           KC_2,           KC_3,           KC_4,           KC_5,               KC_6,           KC_7,           KC_8,           KC_9,           KC_0,
-        KC_LCTL,        KC_LSFT,        KC_LALT,        KC_TAB,         KC_LGUI,            XXXXXXX,        KC_GRV,         KC_QUOT,        KC_LBRC,        KC_RBRC,
+        KC_LCTL,        KC_LSFT,        KC_LALT,        KC_TAB,         KC_LGUI,            KC_GRV,         KC_QUOT,        XXXXXXX,        KC_LBRC,        KC_RBRC,
         XXXXXXX,        XXXXXXX,        XXXXXXX,        XXXXXXX,        XXXXXXX,            XXXXXXX,        KC_MINS,        KC_EQL,         KC_BSLS,        KC_SLSH,
                                         _______,        _______,        _______,            _______,        KC_RSFT,        _______),
     [_CTL]          = LAYOUT_clack(
